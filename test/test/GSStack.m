@@ -59,9 +59,8 @@
 
 - (void)push:(id)obj
 {
-    if (obj) {
-        [self.stack addObject: obj];
-    }
+    NSParameterAssert(obj);
+    [self.stack addObject: obj];
 }
 
 - (id)top

@@ -123,6 +123,8 @@
 		189C083D182D3A3100261985 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				189C086F182D40FC00261985 /* GSStack.h */,
+				189C0870182D40FC00261985 /* GSStack.m */,
 				189C086B182D3B6300261985 /* GSUserDefaults.h */,
 				189C086C182D3B6300261985 /* GSUserDefaults.m */,
 				189C0849182D3A3100261985 /* AppDelegate.h */,
@@ -130,8 +132,6 @@
 				189C084C182D3A3100261985 /* MainMenu.xib */,
 				189C084F182D3A3100261985 /* Images.xcassets */,
 				189C083E182D3A3100261985 /* Supporting Files */,
-				189C086F182D40FC00261985 /* GSStack.h */,
-				189C0870182D40FC00261985 /* GSStack.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
