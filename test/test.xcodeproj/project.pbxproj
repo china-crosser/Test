@@ -18,6 +18,8 @@
 		189C0858182D3A3100261985 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189C0837182D3A3100261985 /* Cocoa.framework */; };
 		189C0860182D3A3100261985 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 189C085E182D3A3100261985 /* InfoPlist.strings */; };
 		189C0862182D3A3100261985 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C0861182D3A3100261985 /* testTests.m */; };
+		189C086D182D3B6300261985 /* GSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C086C182D3B6300261985 /* GSUserDefaults.m */; };
+		189C086E182D3B6300261985 /* GSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C086C182D3B6300261985 /* GSUserDefaults.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		189C085D182D3A3100261985 /* testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testTests-Info.plist"; sourceTree = "<group>"; };
 		189C085F182D3A3100261985 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		189C0861182D3A3100261985 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		189C086B182D3B6300261985 /* GSUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserDefaults.h; sourceTree = "<group>"; };
+		189C086C182D3B6300261985 /* GSUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserDefaults.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 		189C083D182D3A3100261985 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				189C086B182D3B6300261985 /* GSUserDefaults.h */,
+				189C086C182D3B6300261985 /* GSUserDefaults.m */,
 				189C0849182D3A3100261985 /* AppDelegate.h */,
 				189C084A182D3A3100261985 /* AppDelegate.m */,
 				189C084C182D3A3100261985 /* MainMenu.xib */,
@@ -253,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189C084B182D3A3100261985 /* AppDelegate.m in Sources */,
+				189C086D182D3B6300261985 /* GSUserDefaults.m in Sources */,
 				189C0844182D3A3100261985 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189C086E182D3B6300261985 /* GSUserDefaults.m in Sources */,
 				189C0862182D3A3100261985 /* testTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
