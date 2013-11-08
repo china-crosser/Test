@@ -220,7 +220,7 @@
 
 - (BOOL)synchronize
 {
-    return [self writeToFile:self.path];
+    return [super writeToFile:self.path];
 }
 
 @end
