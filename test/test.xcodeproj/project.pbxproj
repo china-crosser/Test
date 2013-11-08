@@ -20,6 +20,8 @@
 		189C0862182D3A3100261985 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C0861182D3A3100261985 /* testTests.m */; };
 		189C086D182D3B6300261985 /* GSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C086C182D3B6300261985 /* GSUserDefaults.m */; };
 		189C086E182D3B6300261985 /* GSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C086C182D3B6300261985 /* GSUserDefaults.m */; };
+		189C0871182D40FC00261985 /* GSStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C0870182D40FC00261985 /* GSStack.m */; };
+		189C0872182D40FC00261985 /* GSStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C0870182D40FC00261985 /* GSStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		189C0861182D3A3100261985 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
 		189C086B182D3B6300261985 /* GSUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSUserDefaults.h; sourceTree = "<group>"; };
 		189C086C182D3B6300261985 /* GSUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserDefaults.m; sourceTree = "<group>"; };
+		189C086F182D40FC00261985 /* GSStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSStack.h; sourceTree = "<group>"; };
+		189C0870182D40FC00261985 /* GSStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 				189C084C182D3A3100261985 /* MainMenu.xib */,
 				189C084F182D3A3100261985 /* Images.xcassets */,
 				189C083E182D3A3100261985 /* Supporting Files */,
+				189C086F182D40FC00261985 /* GSStack.h */,
+				189C0870182D40FC00261985 /* GSStack.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189C0871182D40FC00261985 /* GSStack.m in Sources */,
 				189C084B182D3A3100261985 /* AppDelegate.m in Sources */,
 				189C086D182D3B6300261985 /* GSUserDefaults.m in Sources */,
 				189C0844182D3A3100261985 /* main.m in Sources */,
@@ -270,6 +277,7 @@
 			files = (
 				189C086E182D3B6300261985 /* GSUserDefaults.m in Sources */,
 				189C0862182D3A3100261985 /* testTests.m in Sources */,
+				189C0872182D40FC00261985 /* GSStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
