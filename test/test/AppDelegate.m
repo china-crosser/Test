@@ -7,12 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "GSImageSliceManager.h"
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    GSImageSliceManager *mgr = [GSImageSliceManager defaultImageSliceManager];
+    NSImage *image = [mgr imageOfSliceId:@"ButtonStateSelected"];
+    [[image TIFFRepresentation] writeToFile:@"/Users/apple/Desktop/weiyun/BaiduYunTool/A.png" atomically:NO];
 }
 
 @end

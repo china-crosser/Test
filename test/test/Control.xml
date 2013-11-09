@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+    <image filename="Control.png">
+        <slice id="Icon" rect="0,0,10,10" margins="1,1,1,1"/>
+        <slice id="ButtonStateNormal" rect="0,0,22,24"/>
+        <slice id="ButtonStateHighlighted" rect="25,0,22,24"/>
+        <slice id="ButtonStateDisabled" rect="50,0,22,24"/>
+        <slice id="ButtonStateSelected" rect="75,0,22,24"/>
+    </image>
+</images>

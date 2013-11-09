@@ -22,6 +22,12 @@
 		189C086E182D3B6300261985 /* GSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C086C182D3B6300261985 /* GSUserDefaults.m */; };
 		189C0871182D40FC00261985 /* GSStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C0870182D40FC00261985 /* GSStack.m */; };
 		189C0872182D40FC00261985 /* GSStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C0870182D40FC00261985 /* GSStack.m */; };
+		189C0875182DBC5A00261985 /* GSImageSliceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C0874182DBC5A00261985 /* GSImageSliceManager.m */; };
+		189C0876182DBC5A00261985 /* GSImageSliceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C0874182DBC5A00261985 /* GSImageSliceManager.m */; };
+		189C0879182E585E00261985 /* Control.png in Resources */ = {isa = PBXBuildFile; fileRef = 189C0877182E585E00261985 /* Control.png */; };
+		189C087A182E585E00261985 /* Control.png in Resources */ = {isa = PBXBuildFile; fileRef = 189C0877182E585E00261985 /* Control.png */; };
+		189C087B182E585E00261985 /* Control.xml in Resources */ = {isa = PBXBuildFile; fileRef = 189C0878182E585E00261985 /* Control.xml */; };
+		189C087C182E585E00261985 /* Control.xml in Resources */ = {isa = PBXBuildFile; fileRef = 189C0878182E585E00261985 /* Control.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,10 @@
 		189C086C182D3B6300261985 /* GSUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSUserDefaults.m; sourceTree = "<group>"; };
 		189C086F182D40FC00261985 /* GSStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSStack.h; sourceTree = "<group>"; };
 		189C0870182D40FC00261985 /* GSStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSStack.m; sourceTree = "<group>"; };
+		189C0873182DBC5A00261985 /* GSImageSliceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSImageSliceManager.h; sourceTree = "<group>"; };
+		189C0874182DBC5A00261985 /* GSImageSliceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSImageSliceManager.m; sourceTree = "<group>"; };
+		189C0877182E585E00261985 /* Control.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Control.png; sourceTree = "<group>"; };
+		189C0878182E585E00261985 /* Control.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Control.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +137,13 @@
 				189C0870182D40FC00261985 /* GSStack.m */,
 				189C086B182D3B6300261985 /* GSUserDefaults.h */,
 				189C086C182D3B6300261985 /* GSUserDefaults.m */,
+				189C0873182DBC5A00261985 /* GSImageSliceManager.h */,
+				189C0874182DBC5A00261985 /* GSImageSliceManager.m */,
 				189C0849182D3A3100261985 /* AppDelegate.h */,
 				189C084A182D3A3100261985 /* AppDelegate.m */,
 				189C084C182D3A3100261985 /* MainMenu.xib */,
+				189C0877182E585E00261985 /* Control.png */,
+				189C0878182E585E00261985 /* Control.xml */,
 				189C084F182D3A3100261985 /* Images.xcassets */,
 				189C083E182D3A3100261985 /* Supporting Files */,
 			);
@@ -244,8 +258,10 @@
 			files = (
 				189C0842182D3A3100261985 /* InfoPlist.strings in Resources */,
 				189C0850182D3A3100261985 /* Images.xcassets in Resources */,
+				189C0879182E585E00261985 /* Control.png in Resources */,
 				189C0848182D3A3100261985 /* Credits.rtf in Resources */,
 				189C084E182D3A3100261985 /* MainMenu.xib in Resources */,
+				189C087B182E585E00261985 /* Control.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				189C0860182D3A3100261985 /* InfoPlist.strings in Resources */,
+				189C087A182E585E00261985 /* Control.png in Resources */,
+				189C087C182E585E00261985 /* Control.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +284,7 @@
 			files = (
 				189C0871182D40FC00261985 /* GSStack.m in Sources */,
 				189C084B182D3A3100261985 /* AppDelegate.m in Sources */,
+				189C0875182DBC5A00261985 /* GSImageSliceManager.m in Sources */,
 				189C086D182D3B6300261985 /* GSUserDefaults.m in Sources */,
 				189C0844182D3A3100261985 /* main.m in Sources */,
 			);
@@ -275,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189C0876182DBC5A00261985 /* GSImageSliceManager.m in Sources */,
 				189C086E182D3B6300261985 /* GSUserDefaults.m in Sources */,
 				189C0862182D3A3100261985 /* testTests.m in Sources */,
 				189C0872182D40FC00261985 /* GSStack.m in Sources */,
